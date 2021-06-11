@@ -1,0 +1,54 @@
+.p-breadcrumbs>li:after {
+content: "➤";
+}
+.message-avatar-wrapper .message-avatar-online:before {
+content: "♎️";
+}
+.pageNavSimple-el.pageNavSimple-el--next i:before {
+content: "↦";
+width: 1.28571429em;
+display: inline-block;
+text-align: center;
+}
+.pageNavSimple-el.pageNavSimple-el--prev i:before {
+content: "↤";
+width: 1.28571429em;
+display: inline-block;
+text-align: center;
+}
+.pageNav-jump.pageNav-jump--next:after {
+content: "↦";
+width: 1.28571429em;
+display: inline-block;
+text-align: center;
+}
+.pageNav-jump.pageNav-jump--prev:before {
+content: "↤";
+width: 1.28571429em;
+display: inline-block;
+text-align: center;
+}
+a.bbCodeBlock-sourceJump:after {
+content: "⤴";
+}
+.fa-user:before {
+content: "●";
+}
+.fa-clock:before {
+content: "●";
+}
+.fa-share-alt:before {
+    content: "@";
+}
+
+
+.reactionSummary {
+    margin-right: 3px;
+}
+.inputNumber-button--up::before {
+    content: "+";
+}
+
+.inputNumber-button--down::before {
+    content: "-";
+}
